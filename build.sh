@@ -9,8 +9,8 @@ fi
 # Build docs for Andy the Ant.
 cd andy-the-ant
 export RUSTDOCFLAGS="--html-in-header ./src/docs-header.html -Z unstable-options --extend-css src/extend.css" 
-cargo doc --no-deps
+cargo doc --no-deps --release
 
 cd ..
-mkdir -p target/doc
+mkdir -p target
 mv andy-the-ant/target/doc target
