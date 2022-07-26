@@ -16,7 +16,7 @@ mkdir -p target
 mv andy-the-ant/target/doc target
 
 # Copy the Netlify _redirects file into the publish directory.
-cp _redirects target/_redirects
+cp _redirects target/doc/_redirects
 
 # Include index.html file in target directory.
 echo "<html></html>" | cat > target/doc/index.html
