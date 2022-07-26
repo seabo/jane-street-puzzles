@@ -1,0 +1,9 @@
+[package]
+name = "andy-the-ant"
+version = "0.1.0"
+authors = "George Seabridge"
+edition = "2021"
+
+[dependencies]
+fastrand = "1.8"
+rand = "0.8"

@@ -1,0 +1,3 @@
+.docblock>:not(.information):not(.more-examples-toggle) {
+    overflow-x: visible;
+}
