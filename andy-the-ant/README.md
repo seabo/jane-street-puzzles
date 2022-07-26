@@ -5,6 +5,9 @@ the Ant](https://www.janestreet.com/puzzles/current-puzzle/) problem.
 
 ## The Puzzle
 
+![Andy's morning stroll. A football and a kitchen floor, tiled with
+hexagons](https://www.janestreet.com/puzzles/andys-morning-stroll.png)
+
 Andy the ant has spent most of his days living on a strange land consisting of white hexagons that are surrounded by alternating black pentagons and white hexagons (three of each), and black pentagons surrounded by five white hexagons. To us this land is familiar as the classic soccer ball we see above on the left. Due to Andy’s tiny size and terrible eyesight, he doesn’t notice the curvature of the land and avoids the black pentagons because he suspects they may be bottomless pits.
 
 Every morning he wakes up on a white hexagon, leaves some pheromones to mark it has his special home space, and starts his random morning stroll. Every step on this stroll takes him to one of the three neighboring white hexagons with equal probability. He ends his stroll as soon has he first returns to his home space. As an example, on exactly 1/3 of mornings Andy’s stroll is 2 steps long, as he randomly visits one of the three neighbors, and then has a 1/3 probability of returning immediately to the home hexagon.
