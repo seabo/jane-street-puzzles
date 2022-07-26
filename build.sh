@@ -13,7 +13,9 @@ cargo doc --no-deps --release
 
 cd ..
 mkdir -p target
-mv andy-the-ant/target/doc target
+cp andy-the-ant/target/doc target
 
 # Copy the Netlify _redirects file into the publish directory.
 cp _redirects target/_redirects
+
+
