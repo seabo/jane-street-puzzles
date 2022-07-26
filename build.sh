@@ -19,5 +19,5 @@ mv andy-the-ant/target/doc target
 cp _redirects target/_redirects
 
 # Include index.html file in target directory.
-echo "<html></html>" | cat > target/index.html
+echo "<html></html>" | cat > target/doc/index.html
 
