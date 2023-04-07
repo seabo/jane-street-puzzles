@@ -1,6 +1,6 @@
 #![allow(unused_imports)]
 
-use andy_the_ant::{
+use andys_morning_stroll::{
     enumerate_every_walk, expected_walk_length_on_football, multithreaded, path_counting_on_graph,
     prob_of_longer_walk_in_the_kitchen, GraphPathCounter,
 };

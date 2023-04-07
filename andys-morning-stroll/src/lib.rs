@@ -1,5 +1,4 @@
 #![feature(associated_type_defaults)]
-#![feature(result_into_ok_or_err)]
 #![allow(dead_code)]
 #![deny(missing_docs)]
 //! Algorithms used to solve [Andy's Morning Stroll](https://www.janestreet.com/puzzles/current-puzzle/):
@@ -378,10 +377,14 @@ impl<T: RandomWalk> Expectation<T> {
     ) -> f32 {
         let mut rng = rand::thread_rng();
         while self.cnt < runs {
-            let steps = self
-                .walker
-                .walk_until_limit(src.clone(), tgt.clone(), &mut rng, limit)
-                .into_ok_or_err();
+            let steps =
+                match self
+                    .walker
+                    .walk_until_limit(src.clone(), tgt.clone(), &mut rng, limit)
+                {
+                    Ok(t) => t,
+                    Err(t) => t,
+                };
             *self.freq_map.entry(steps).or_insert(0) += 1;
             self.cnt += 1;
         }

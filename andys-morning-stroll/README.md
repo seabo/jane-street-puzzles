@@ -1,7 +1,6 @@
-# Andy the Ant
+# Andy's Morning Stroll
 
-This repository contains Rust code I wrote in an effort to solve the [Andy
-the Ant](https://www.janestreet.com/puzzles/current-puzzle/) problem.
+This repository contains Rust code I wrote in an effort to solve the [Andy's Morning Stroll](https://www.janestreet.com/puzzles/andys-morning-stroll-index/) problem.
 
 ## The Puzzle
 
@@ -19,9 +18,5 @@ Let $p$ be the probability that his morning stroll on this new land is strictly 
 ## Solution
 
 The code for the full solution is in this repository. The [crate
-documentation](https://js.seabo.me) contains detailed explanations of
+documentation](https://js.seabo.me/andys-morning-stroll) contains detailed explanations of
 the methodology and implementation.
-
-
-
-
