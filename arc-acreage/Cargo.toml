@@ -1,0 +1,5 @@
+[package]
+authors = ["George Seabridge"]
+name = "arc-acreage"
+version = "0.1.0"
+edition = "2021"
