@@ -22,5 +22,5 @@ Note that a simple curve is not allowed to self-intersect.
 ## Solution
 
 The code for the full solution is in this repository. The [crate
-documentation](https://js.seabo.me/arc-acreage) contains some further
+documentation](https://js.seabo.me/arc_acreage) contains some further
 details and explanations of the methodology.
